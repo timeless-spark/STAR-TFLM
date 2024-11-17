@@ -1,0 +1,12 @@
+[submodule "esp"]
+	path = esp
+	url = https://github.com/sld-columbia/esp.git
+[submodule "tflite-micro"]
+	path = tflite-micro
+	url = https://github.com/tensorflow/tflite-micro.git
+[submodule "riscv-gnu-toolchain"]
+	path = riscv-gnu-toolchain
+	url = https://github.com/riscv-collab/riscv-gnu-toolchain.git
+[submodule "flatbuffers"]
+	path = flatbuffers
+	url = https://github.com/google/flatbuffers.git
