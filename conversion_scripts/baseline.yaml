@@ -1,0 +1,26 @@
+dev_directory : /opt/mlperftiny-dataset/ad/dev_data
+dev_perf_directory : /opt/mlperftiny-dataset/ad/dev_data_perf
+eval_directory : ./eval_data
+model_directory: ./model
+result_file: result.csv
+result_file_refmodel: result_refmodel.csv
+
+max_fpr : 0.1
+
+feature:
+  n_mels: 128
+  frames : 5
+  n_fft: 1024
+  hop_length: 512
+  power: 2.0
+
+
+fit:
+  compile:
+    optimizer : adam
+    loss : mean_squared_error
+  epochs : 8    #100
+  batch_size : 512
+  shuffle : True
+  validation_split : 0.1
+  verbose : 1

@@ -1,1 +1,3 @@
 # STAR-TFLM
+
+This repository contains the source code for the paper "An End-to-End Flow to Deploy and Accelerate TinyML Mixed-Precision Models on RISC-V MCUs". The paper is under review process for pubblication in the IEEE Internet of Things Journal. Preprint version is available in the TechRxiv [https://doi.org/10.36227/techrxiv.173161032.20267860/v1](https://doi.org/10.36227/techrxiv.173161032.20267860/v1)

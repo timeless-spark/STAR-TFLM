@@ -1,0 +1,1 @@
+To apply the QKeras patch follow infomation reported here: https://github.com/LucaUrbinati44/qkeras-mod 
